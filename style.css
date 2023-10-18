@@ -58,7 +58,97 @@ h6{
 .features{
     overflow-x: hidden;
     width: 100vw;
-    height: 200vh;
+    height: 300vh;
     border: 2px solid black;
-    background-color: rgb(216, 223, 228);
+    background-color: rgb(33, 72, 92);
+}
+.feature1{
+    width: 80%;
+    border: 2px solid red;
+    height: 100%;
+    margin-left: 10%;
+
+
+}
+.h5{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.forbes{
+    width: 80%;
+    height: 40%;
+    border: 2px solid green;
+    margin-left: 10%;
+    display: flex;
+    gap: 30px;
+
+}
+.ftext{
+    color: rgb(47, 23, 225);
+    font-size: 50px;
+    font-weight:bold;
+    margin-left: 10%;
+}
+.ftextnormal{
+    color: rgb(47, 23, 225);
+    font-size: 50px;
+    font-weight:500;
+   
+    
+}
+.ftextnormal1{
+    color: rgb(47, 23, 225);
+    font-size: 50px;
+    font-weight:500;
+    margin-left: 10%;
+    
+}
+.about{
+    border: 2px solid red;
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 10%;
+
+}
+.h5text{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+.imground{
+    width: 350px;
+    height: 350px;
+    border: 20px solid rgb(186, 178, 178);
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+
+}
+.roundimg{
+    border: 2px solid white;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+   
+}
+.abouttext{
+    width: 80%;
+    height: 300px;
+    margin-left: 10%;
+    border: 2px solid red;
+    background-color:rgb(255, 253, 250); ;
+}
+.back{
+    background-color: rgb(255, 253, 250);
+}
+.h3{
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+.para{
+    text-align: center;
 }
