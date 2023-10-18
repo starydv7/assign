@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
-    <title>Navbar with Tailwind CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment</title>
 </head>
 <body>
-    <nav class="bg-blue-500 p-4">
+    <nav class="bg-white-500 p-4">
         <div class="container mx-auto">
             <div class="flex justify-between items-center">
-                <a href="#" class="text-white text-2xl font-bold">My Website</a>
+                <a href="#" class="text-blue-500 text-2xl font-bold">My Website</a>
                 <div class="hidden md:flex space-x-4">
-                    <a href="#" class="text-white">Home</a>
-                    <a href="#" class="text-white">About</a>
-                    <a href="#" class="text-white">Services</a>
-                    <a href="#" class="text-white">Contact</a>
+                    <a href="#" class="text-blue-700">Join Community</a>
+                    <a href="#" class="text-blue-700">About Us</a>
+                  
                 </div>
                 <div class="md:hidden">
                     <button id="mobile-menu-button" class="text-white">
@@ -29,18 +29,47 @@
     </nav>
 
     <!-- Mobile Menu (hidden by default) -->
-    <div id="mobile-menu" class="md:hidden bg-grey-500">
+    <div id="mobile-menu" class="md:hidden bg-white-500">
         <ul class="p-4 space-y-4">
-            <li><a href="#" class="text-white">Join Community</a></li>
-            <li><a href="#" class="text-white">About Us</a></li>
+            <li><a href="#" class="text-blue-700">Join Community</a></li>
+            <li><a href="#" class="text-blue">About Us</a></li>
         </ul>
     </div>
 
     <!-- Content goes here -->
-    <div class="bg-blue-800 h-5xl w-full">
+     <div class="mainContainer">
+     <div class="text">
+        <div class="title">
+            <h1 class="h1">Hack your wealth journey
+                inside the 1% club</h1>
+                <div class="subtitle">
+                    <h6 class="h6">A super premium annual subscription that will transform
+                        your wealth planning and make you say
+                        “Bro! I’m financially sorted!”</h6>
+                </div>
+                <div>
+                    <button class="button">Join The Community</button>
+                </div>
+        </div>
+       
+       
+     </div>
+     <div class="image">
+        <div class="imgdiv">
+            <img src="./assets/6.png"class='mainImg' alt="Your Image Description">
+        </div>
+       
+     </div>
+     </div>
 
+
+     <!-- features page -->
+
+     <div class="bg-white h-screen w-screen border border-red-500">
+        <!-- Your content goes here -->
     </div>
-
+    
+    
     <script>
         // JavaScript to toggle the mobile menu
         document.getElementById("mobile-menu-button").addEventListener("click", function () {
