@@ -15,33 +15,36 @@
     <title>Assignment</title>
 </head>
 <body>
-    <nav class="bg-white-500 p-4">
-        <div class="container mx-auto">
-            <div class="flex justify-between items-center">
-                <a href="#" class="text-blue-500 text-2xl font-bold">My Website</a>
-                <div class="hidden md:flex space-x-4">
-                    <a href="#" class="text-blue-700">Join Community</a>
-                    <a href="#" class="text-blue-700">About Us</a>
-                  
-                </div>
-                <div class="md:hidden">
-                    <button id="mobile-menu-button" class="text-white">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                        </svg>
-                    </button>
-                </div>
+    <nav class="bg-blue-500 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center"> <!-- Left side, includes the logo -->
+                <a href="#" class="text-white text-xl font-bold">
+                    <img src="logo.png" alt="Logo" class="h-8 w-8 inline mr-2">
+                    Your Brand
+                </a>
+            </div>
+            <div class="space-x-4 hidden lg:flex items-center"> <!-- Right side, includes the links -->
+                <a href="#" class="text-white"> Join Community</a>
+                <a href="#" class="text-white">Contact Us</a>
+              
+            </div>
+            <div class="lg:hidden"> <!-- Hamburger icon for smaller screens -->
+                <button id="menu-toggle" class="block text-white hover:text-white focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
             </div>
         </div>
     </nav>
 
     <!-- Mobile Menu (hidden by default) -->
-    <div id="mobile-menu" class="md:hidden bg-white-500">
+    <!-- <div id="mobile-menu" class="md:hidden bg-white-500">
         <ul class="p-4 space-y-4">
             <li><a href="#" class="text-blue-700">Join Community</a></li>
             <li><a href="#" class="text-blue">About Us</a></li>
         </ul>
-    </div>
+    </div> -->
 
     <!-- Content goes here -->
     <div class="back">
@@ -336,6 +339,7 @@
     <h2>
         Media Section
     </h2>
+    <h2 class="mediasub">Check out the intro video of the community</h2>
 
 </div>
 <div class="video">
@@ -349,7 +353,7 @@
 <div class="mobile">
 <div class="curve">
     <div class="curvetitle">
-<h2>Get the app in one click!</h2>
+<h2 class="curtitleh2">Get the app in one click!</h2>
 <p class="curvepara">Hack your wealth journey inside
 
     <br/>the 1% club</p>

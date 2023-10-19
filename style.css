@@ -365,10 +365,11 @@ border-radius: 20px;
     height: 30px;
     margin-top: 10%;
     width: 100%;
-    
+    border-radius: 20px;
     background-color: blue;
     color: white;
 }
+
 .callmain{
     display: flex;
     background-color:#ebeffd ;
@@ -406,21 +407,24 @@ border-radius: 20px;
 .testcard{
     width: 80%;
     margin-left: 10%;
-    height: 220px;
+    height: 240px;
     display: flex;
     gap: 20px;
+    
+   
     margin-top: 1%;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  
 }
 .testcard>div{
     width: 50%;
     margin-left: 0.5%;
     gap: 20px;
-   
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .testimg{
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     margin-left: 46%;
     margin-top: 2%;
@@ -455,21 +459,27 @@ margin-left: 10%;
 .video{
     width: 50%;
     height: 520px;
-
+border-radius: 20px;
     margin-left: 25%;
 }
 
 .video {
     position: relative;
     display: inline-block;
+    border-radius: 20px;
+    
 }
 
 .videoimg {
     width: 100%;
     height: 100%;
+    border-radius: 20px;
+    margin-top: 5%;
     
 }
-
+.mediasub{
+    font-weight: 600;
+}
 .play-button-overlay {
     position: absolute;
     top: 0;
@@ -482,6 +492,7 @@ margin-left: 10%;
     align-items: center;
     opacity: 0;
     transition: opacity 0.3s;
+    margin-top: 5%;
 }
 
 .play-button {
@@ -510,31 +521,41 @@ margin-left: 10%;
     height: 30px;
     
     margin-left: 25%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .curvetitle>h2{
     text-align: center;
     color: white;
     font-weight: 400;
+    
 }
 .curveflex{
     display: flex;
     gap:5px;
 }
+
 .curvepara{
     text-align: center;
     font-size: 26px;
     color: white;
+    margin-top: 5%;
 }
 .curvebutton{
     width: 250px;
     height: 50px;
     background-color: white;
-   
+   border-radius: 20px;
     color: blue;
     margin-left: 33%;
     margin-top: 1%;
+    cursor: pointer;
 
+}
+.curvebutton:hover{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    
 }
 .mobileimg{
     width: 50%;
@@ -636,6 +657,7 @@ margin-left: 10%;
     width: 200px;
     height: 50px;
     margin-left: 10%;
+    cursor: pointer;
 
 
 }
@@ -649,9 +671,7 @@ margin-left: 10%;
 .footerlast>div{
     text-align: center;
 }
-.footerdiv{
 
-}
 .footertext{
     color: white;
 }
